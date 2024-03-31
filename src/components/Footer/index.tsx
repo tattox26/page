@@ -29,8 +29,8 @@ const Footer = () => {
                 </Link>
               */}
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Nuestra empresa esta conectada al mundo, puedes seguirnos atravez de estas redes sociales
+                  donde veras contenido acerca de la copropiedad horizontal 
                 </p>
                 <div className="flex items-center">
                   <a
@@ -114,7 +114,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Otros links
                 </h2>
                 <ul>
                   <li>
@@ -130,7 +130,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Precios
                     </Link>
                   </li>
                   <li>
@@ -138,7 +138,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Acerca de nosotros
                     </Link>
                   </li>
                 </ul>
@@ -148,7 +148,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Terminos y condiciones
                 </h2>
                 <ul>
                   <li>
@@ -156,7 +156,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Contabilidad
                     </Link>
                   </li>
                   <li>
@@ -164,7 +164,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Politica privada
                     </Link>
                   </li>
                   <li>
@@ -172,7 +172,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Camaras y reglas
                     </Link>
                   </li>
                 </ul>
@@ -182,7 +182,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Soporte y ayuda
                 </h2>
                 <ul>
                   <li>
@@ -190,7 +190,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Chat / whatsapp
                     </Link>
                   </li>
                   <li>
@@ -198,7 +198,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Nuestro equipo
                     </Link>
                   </li>
                   <li>
@@ -206,7 +206,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Acerca de nosotros
                     </Link>
                   </li>
                 </ul>
