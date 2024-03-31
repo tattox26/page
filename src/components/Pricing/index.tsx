@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Precios y planes"
+          paragraph="Aqu hay una variacion de planes que podria acomodarse a tu necesidad y caso de necesitar mas detalle puede contarse con nosotros."
           center
           width="665px"
         />
@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              Mes
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,50 +52,50 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              Año
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Basico"
+            price={isMonthly ? "80K" : "900K"}
+            duration={isMonthly ? "Mes" : "Año"}
+            subtitle="Podra "
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Citofonia" status="active" />
+            <OfferList text="Multiple Usuario" status="active" />
+            <OfferList text="Noticias y anuncios" status="active" />
+            <OfferList text="Calendario de enveros" status="active" />
+            <OfferList text="Contabilidad" status="inactive" />
+            <OfferList text="Reportes y soporte" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
+            packageName="Estandar"
+            price={isMonthly ? "120K" : "1'300K"}
+            duration={isMonthly ? "Mes" : "Año"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Citofonia" status="active" />
+            <OfferList text="Multiple Usuario" status="active" />
+            <OfferList text="Noticias y anuncios" status="active" />
+            <OfferList text="Calendario de enveros" status="active" />
+            <OfferList text="Contabilidad" status="active" />
+            <OfferList text="Reportes y soporte" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
+            packageName="Premium"
+            price={isMonthly ? "250K" : "2'100K"}
+            duration={isMonthly ? "Mes" : "Año"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Citofonia" status="active" />
+            <OfferList text="Multiple Usuario" status="active" />
+            <OfferList text="Noticias y anuncios" status="active" />
+            <OfferList text="Calendario de enveros" status="active" />
+            <OfferList text="Contabilidad" status="active" />
+            <OfferList text="Reportes y soporte" status="active" />
           </PricingBox>
         </div>
       </div>
