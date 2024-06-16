@@ -1,10 +1,11 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "AdminPropiedad",
   "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "prod_start": "NODE_ENV=production node server.js",
     "start": "next start",
     "lint": "next lint"
   },
