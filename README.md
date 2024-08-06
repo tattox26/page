@@ -3,4 +3,7 @@ apt install npm
 
 npm install
 
-npm run dev
+apt install nginx -y
+npm run build
+
+npm run dev o npm run start
