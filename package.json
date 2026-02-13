@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "main": "server.js",
   "private": true,
+  // "scripts": {
+  //   "dev": "next dev",
+  //   "build": "next build",
+  //   "prod_start": "NODE_ENV=production node server.js",
+  //   "start": "next start",
+  //   "lint": "next lint"
+  // },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prod_start": "NODE_ENV=production node server.js",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -H 0.0.0.0 -p 3000"
   },
   "dependencies": {
     "eslint": "^8.56.0",
