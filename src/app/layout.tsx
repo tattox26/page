@@ -1,4 +1,4 @@
-"use client";
+import type { Metadata } from "next";
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -9,6 +9,10 @@ import "../styles/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata: Metadata = {
+  title: "SamCopropiedad",
+  description: "Software para la administracion y contabilidad de una copropiedad",
+};
 export default function RootLayout({
   children,
 }: {
