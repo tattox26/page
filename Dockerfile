@@ -39,4 +39,5 @@ COPY --from=deps /app/node_modules ./node_modules
 EXPOSE 3000
 
 # Comando de arranque
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
+CMD ["npm", "start", "--", "-H", "0.0.0.0", "-p", "3000"]
