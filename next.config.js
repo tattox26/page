@@ -9,6 +9,17 @@ const nextConfig = {
       },
     ],
   },
+  // Esto le dice a Next: "Si no es una ruta mía, no te metas"
+  async rewrites() {
+    return {
+      fallback: [
+        {
+          source: '/admin/:path*',
+          destination: '/admin/:path*', 
+        },
+      ],
+    }
+  },
 };
 
 module.exports = nextConfig;
