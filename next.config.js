@@ -9,13 +9,16 @@ const nextConfig = {
       },
     ],
   },
-  // Esto le dice a Next: "Si no es una ruta mía, no te metas"
   async rewrites() {
     return {
       fallback: [
         {
           source: '/admin/:path*',
-          destination: '/admin/:path*', 
+          destination: 'http://samcopropiedad.com/admin/:path*', // ← apunta a Laravel
+        },
+        {
+          source: '/storage/:path*',
+          destination: 'http://samcopropiedad.com/storage/:path*', // ← agrega esto
         },
       ],
     }
